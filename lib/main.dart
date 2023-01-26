@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Home Screen/home_screen.dart';
+import 'Home Page/home_screen.dart';
 import 'Splash Screen/splash_screen.dart';
 
 void main() {
