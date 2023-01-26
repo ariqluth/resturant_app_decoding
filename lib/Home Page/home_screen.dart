@@ -71,12 +71,12 @@ class HomePage extends StatelessWidget {
                 child: Container(
                     padding: EdgeInsets.all(6.0),
                     decoration: BoxDecoration(
-                        color: Colors.orange,
+                        color: Color.fromARGB(255, 23, 122, 161),
                         borderRadius: BorderRadius.circular(6)),
                     child: Text(
                       restaurant.rating.toString(),
                       style: TextStyle(
-                          fontWeight: FontWeight.bold, color: Colors.white),
+                          fontWeight: FontWeight.bold, color: Colors.yellow),
                     )))
           ]),
           Row(
@@ -97,7 +97,7 @@ class HomePage extends StatelessWidget {
                         Icon(
                           Icons.location_on,
                           size: 16,
-                          color: Colors.grey,
+                          color: Colors.yellow,
                         ),
                         Text(restaurant.city),
                       ],
